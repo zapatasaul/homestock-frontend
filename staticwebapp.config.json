@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "allowedRoles": ["anonymous"],
+      "rewrite": "https://SaulZapata1730@homestock-api-app.scm.azurewebsites.net"
+    }
+  ]
+}
